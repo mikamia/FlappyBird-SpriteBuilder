@@ -163,7 +163,7 @@
         // move it to the right
         if (bushy.position.x <= (-1 * bushy.contentSize.width)) {
             bushy.position = ccp(bushy.position.x +
-                                2 * bushy.contentSize.width, bushy.position.y);
+                                3 * bushy.contentSize.width, bushy.position.y);
         }
     }
     
