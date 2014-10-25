@@ -161,9 +161,9 @@
         
         // if the left corner is one complete width off the screen,
         // move it to the right
-        if (bush.position.x <= (-1 * bushy.contentSize.width)) {
-            bush.position = ccp(bushy.position.x +
-                                2 * bush.contentSize.width, bushy.position.y);
+        if (bushy.position.x <= (-1 * bushy.contentSize.width)) {
+            bushy.position = ccp(bushy.position.x +
+                                2 * bushy.contentSize.width, bushy.position.y);
         }
     }
     
